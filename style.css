@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    text-align: center;
+    background: linear-gradient(to bottom, #B983FF, #94B3FD, #94DAFF, #99FEFF);
+    margin: 10px 50px 0 50px;
+  }
+  
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+  }
+  
+  button {
+    border: solid 1px;
+    background-color: #f0f0f0;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border: none;
+  }
+  
+  .tittle {
+    color: #000000;
+    background-color: #abe9cd;
+    background: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 0 10px 0;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .body {
+    margin: 10px;
+  }
+  
+  .tittle {
+    font-family: American Typewriter, serif;
+  }
+  
+  .name {
+    font-family: Georgia, sherif;
+    margin-top: -5px;
+  }
+  
+  .desc {
+    background: linear-gradient(150deg, #d6d6d6, #f0f0f0);
+    margin-top: -22px;
+    padding-top: 12px;
+    padding-bottom: 1px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #dcdbdb;
+    transform: scale(0.95);
+  }
+  
+  .persuasion {
+    margin-top: -10px;
+  }
