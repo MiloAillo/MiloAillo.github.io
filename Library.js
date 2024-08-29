@@ -39,3 +39,16 @@ function mouseOut3() {
   detail3.open = false;
 }
 // *Notes
+
+const detail4 = document.getElementById("summary4");
+
+detail4.addEventListener("mouseover", mouseOver4);
+detail4.addEventListener("mouseout", mouseOut4);
+
+function mouseOver4() {
+  detail4.open = true;
+}
+
+function mouseOut4() {
+  detail4.open = false;
+}
