@@ -52,3 +52,17 @@ function mouseOver4() {
 function mouseOut4() {
   detail4.open = false;
 }
+// BlackJack Game Project
+
+const detail5 = document.getElementById("summary5");
+
+detail5.addEventListener("mouseover", mouseOver5);
+detail5.addEventListener("mouseout", mouseOut5);
+
+function mouseOver5() {
+  detail5.open = true;
+}
+
+function mouseOut5() {
+  detail5.open = false;
+}
