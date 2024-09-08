@@ -5,7 +5,8 @@ html {
 
 body {
   text-align: center;
-  background: linear-gradient(to bottom, #B983FF, #94B3FD, #94DAFF, #99FEFF);
+  background: linear-gradient(to left, #15159aae, #620a84d2);
+  height: 100vh;
   margin: 10px 50px 0 50px;
 }
 
@@ -18,24 +19,29 @@ img {
 
 button {
   border: solid 1px;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0a1;
   color: black;
   border-radius: 10px;
   width: 100px;
   height: 30px;
   margin: 5px;
-  box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 4px rgb(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   border: none;
+  backdrop-filter: blur(5px);
 }
 
 .tittle {
+  margin-left: auto;
+  margin-right: auto;
   color: #000000;
   background-color: #abe9cd;
-  background: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  background: linear-gradient(315deg, #abe9cdd9 0%, #3eadcfc4 74%);
   font-weight: bold;
   border-radius: 15px 15px 0 0;
   padding: 10px 0 10px 0;
+  max-width: 600px;
+  backdrop-filter: blur(10px);
 }
 
 a {
@@ -52,16 +58,20 @@ a {
 
 .name {
   font-family: Georgia, sherif;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 .desc {
-  background: linear-gradient(150deg, #d6d6d6, #f0f0f0);
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(150deg, #d6d6d672, #f0f0f0af, #f0f0f081);
   margin-top: -22px;
   padding-top: 12px;
   padding-bottom: 1px;
   border-radius: 0 0 15px 15px;
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 4px rgb(0, 0, 0, 0.2);
+  max-width: 600px;
+  backdrop-filter: blur(10px);
 }
 
 a {
@@ -75,4 +85,28 @@ button:hover {
 
 .persuasion {
   margin-top: -10px;
+}
+
+.shapeBox {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  width: 100%;
+  height: 100px;
+  background-image: url(images/Untitled21_20240829223306.png);
+  background-position: center;
+  background-size: cover;
+  border: solid 1px rgba(255, 255, 255, 0.197);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 4px rgb(0, 0, 0, 0.2);
+}
+
+@media(min-width: 600px) {
+  .shapeBox {
+    background: url(images/Untitled21_20240908102042.png);
+    background-position: center;
+    background-size: cover;
+    height: 125px;
+  }
 }
