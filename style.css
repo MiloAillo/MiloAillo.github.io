@@ -102,6 +102,169 @@ button:hover {
   box-shadow: 0 4px 8px 4px rgb(0, 0, 0, 0.2);
 }
 
+.musicBox {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(150deg, #d6d6d672, #f0f0f0af, #f0f0f081);
+  border-radius: 15px;
+  padding-bottom: 2px;
+  box-shadow: 0 4px 8px 4px rgb(0, 0, 0, 0.2);
+  max-width: 600px;
+  backdrop-filter: blur(10px);
+}
+
+.musicTittle {
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px 15px 0 0;
+  max-width: 600px;
+  background: linear-gradient(315deg, #e3abe9 0%, #3e41cfa8 74%);
+  backdrop-filter: blur(10px);
+}
+
+.musicHeader {
+  padding-top: 5px;
+}
+
+.music1, .music2, .music3 {
+  width: 213px;
+  height: 120px;
+  margin: 30px 0 30px 30px;
+  background-color: #ffffff35;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.music1 {
+  background-image: url(images/YonKaGor\ -\ Its\ Normal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.music2 {
+  background-image: url(images/Trickle\ -\ Abnormality\ Dancin\ Girl.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.music3 {
+  background-image: url(images/Radiohead\ -\ There\ There.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.song, .artist, .youtube {
+  text-align: left;
+  margin: 0 0 0 225px;
+  padding: 0 0 0 0;
+}
+
+.artist {
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+}
+
+.song {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.youtube {
+  width: auto;
+  padding: 0 10px 0 10px;
+  box-shadow: none;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.177) inset;
+}
+
+#youtube1, #youtube2, #youtube3 {
+  background-color: #ff000031;
+}
+
+#youtube1 {
+  margin-top: 26px;
+}
+
+#youtube2 {
+  margin-top: 5px;
+}
+
+#youtube3 {
+  margin-top: 26px;
+}
+
+.ytLink {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+@media(max-width: 560px) {
+    .musicBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .musicHeader {
+      margin: 0;
+    }
+
+    .music1, .music2, .music3 {
+      margin: 20px 0 0px 0;
+    }
+
+    .music1 {
+      margin-bottom: 45px;
+    }
+
+    .music2 {
+      margin-bottom: 67px;
+    }
+
+    .music3 {
+      margin-bottom: 60px;
+    }
+
+    .song, .artist, .youtube {
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  transform: translateY(125px);
+    }
+
+  .artist {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  
+  .song {
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  
+  .youtube {
+    width: auto;
+    box-shadow: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.177) inset;
+  }
+
+  #youtube1, #youtube2, #youtube3 {
+    transform: translateY(0);
+    width: 100px;
+    background-color: #ff00002d;
+    transition: transform 0.3s ease;
+  }
+
+  #youtube1:hover, #youtube2:hover, #youtube3:hover {
+    transform: scale(0.95);
+  }
+}
+
 @media(min-width: 600px) {
   .shapeBox {
     background: url(images/Untitled21_20240908102042.png);
